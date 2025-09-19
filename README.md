@@ -4,7 +4,7 @@
 
 ## 项目结构
 
-.
+```
 ├── back/ # 后端服务目录
 │ ├── core/
 │ │ └── cosyvoice_manager.py # CosyVoice 模型管理和 TTS 核心逻辑
@@ -22,6 +22,7 @@
 ├── asset/ # 存放默认提示音等资源
 │ └── zero_44100.wav # 默认提示音文件
 └── README.md # 项目说明文件
+```
 
 ## 后端 (Back-end) 介绍
 
