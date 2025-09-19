@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pydantic
+torch>=1.10.0 # 根据你的 CUDA 11.5 版本调整，cu118 通常也兼容
+torchaudio>=0.10.0 # 根据你的 CUDA 11.5 版本调整，cu118 通常也兼容
+soundfile
+numpy
+modelscope # 用于下载模型，虽然你已经下载了，但 CosyVoice 内部可能依赖它
